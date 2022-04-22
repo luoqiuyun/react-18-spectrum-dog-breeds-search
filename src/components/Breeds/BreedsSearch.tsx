@@ -15,19 +15,8 @@ import {
   TableView
 } from "@adobe/react-spectrum";
 
+import { columns, Density, Loading } from "./helper/config";
 import { filterBreeds } from "./helper/utils";
-import { columns } from "./helper/config";
-
-export enum Density {
-  COMPACT = "compact",
-  SPACIOUS = "spacious",
-  REGULAR = "regular",
-}
-
-export enum Loading {
-  IDLE = "idle",
-  LOADING = "loading",
-}
 
 const BreedsList = ({ data }: ListProps) => {
   const [search, setSearch] = useState("");
