@@ -1,14 +1,15 @@
 import React, { useState, useEffect, useRef } from "react";
 
 import BreedsSearch from "./BreedsSearch";
-import { breedsStyle, PAGE_SIZE } from "./helper/config";
-import { shouldLoadMore, formatData } from "./helper/utils";
+import { breedsStyle, PAGE_SIZE, ROW_HEIGHT } from "./helper/config";
+import { formatData } from "./helper/utils";
 
 const Breeds = () => {
   const [data, setData] = useState<object[]>([]);
   const [currentPage, setCurrentPage] = useState(1);
 
   const innerRef = useRef<HTMLDivElement>(null);
+  /*
   const handleScroll: EventListener = (e: Event) => {
     const target = e.target as HTMLDivElement;
     if (target) {
@@ -16,6 +17,14 @@ const Breeds = () => {
         if (shouldLoadMore(currentPage)) {
           setCurrentPage(currentPage + 1);
         }
+      }
+    }
+  }; */
+  const handleScroll: EventListener = () => {
+    const div = innerRef.current;
+    if (!!div) {
+      if (div.scrollTop > (ROW_HEIGHT * currentPage * PAGE_SIZE - 2 * ROW_HEIGHT)) {
+        setCurrentPage(currentPage + 1);
       }
     }
   };
