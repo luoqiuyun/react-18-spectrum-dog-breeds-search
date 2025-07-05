@@ -1,13 +1,60 @@
-# Dog Breads Search
+# 🐶 Dog Breed Catalog (Adobe React Spectrum Prototype)
 
-This is a prototype built during a technical challenge for Adobe, showcasing the integration of Adobe’s React Spectrum UI library into a high-performance React application. It solves compatibility issues across React versions 16, 17, and 18, ensures interoperability with third-party libraries, and improves performance with lazy loading and efficient data retrieval.
+A React + TypeScript application that catalogs and displays information on various dog breeds using data from The [Dog API](https://thedogapi.com/).
+This project was originally built as part of a technical challenge for Adobe, demonstrating real-world use of @adobe/react-spectrum and solving key compatibility and performance issues across React versions 16, 17, and 18, ensures interoperability with third-party libraries, and improves performance with lazy loading and efficient data retrieval.
+
+# ✨ Key Achievements
+- ✅ Solved compatibility issues with React 16, 17, and 18 for @adobe/react-spectrum
+
+- ✅ Resolved interoperability conflicts with third-party libraries
+
+- ✅ Implemented lazy loading and optimized data rendering for high performance
+
+- ✅ Delivered a fully working, production-grade solution, deployed to Netlify (May 2022)
 
 
-# react-18-spectrum-dog-breeds-search
+# 🌐 Live Demo & Project Link
 
 - [DEMO - Live since May 2022](https://celadon-kangaroo-abaeef.netlify.app/)
 
 - [GitHub - React v18 Spectrum Dog Breeds Search](https://github.com/luoqiuyun/react-18-spectrum-dog-breeds-search)
+
+
+# 💻  Technologies Used
+
+- React 16/17/18 (cross-version support)
+
+- TypeScript
+
+- @adobe/react-spectrum
+
+- Axios
+
+- Netlify for deployment
+
+- Serverless 
+
+
+# 🏗️ Architectural Highlights
+
+- Lazy Loading: Only visible dog cards load images and data for optimal performance.
+
+- Spectrum Integration: Overcame initial incompatibility of React Spectrum with multiple React versions and ensured UI consistency.
+
+- Interoperability Fixes: Solved styling and rendering conflicts with third-party libraries.
+
+- Accessibility: Ensured ARIA and keyboard navigation compliance where applicable.
+
+
+# 🚀 Quick Start 
+To run the project locally:
+
+```bash
+git clone https://github.com/luoqiuyun/react-18-spectrum-dog-breeds-search.git
+cd react-18-spectrum-dog-breeds-search
+npm install
+npm start
+```
 
 
 ## 🔗 Screenshots
