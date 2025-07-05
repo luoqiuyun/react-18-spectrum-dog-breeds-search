@@ -5,20 +5,32 @@ This is a prototype built during a technical challenge for Adobe, showcasing the
 
 # react-18-spectrum-dog-breeds-search
 
-[Deployed to Netlify – see project live since May 2022](https://celadon-kangaroo-abaeef.netlify.app/)
+- [DEMO - Live since May 2022](https://celadon-kangaroo-abaeef.netlify.app/)
 
-[React v18 Spectrum Dog Breeds Search on GitHub](https://github.com/luoqiuyun/react-18-spectrum-dog-breeds-search)
+- [GitHub - React v18 Spectrum Dog Breeds Search](https://github.com/luoqiuyun/react-18-spectrum-dog-breeds-search)
 
 
 ## 🔗 Screenshots
 
-![Catalog Deployed on Netlify Successfully](./screenshot1.png)
+1. Adobe Spectrum Catalog Deployed to Netlify Successfully
+
+![Catalog Deployed to Netlify Successfully](./screenshot1.png)
+
+2. Adobe Spectrum Catalog Landing Page with Search Box
 
 ![Catalog Landing Page with Search Box](./screenshot2.png)
 
+3. Adobe Spectrum Catalog Scroll Down Continue Loading
+
 ![Catalog Scroll Down Continue Loading](./screenshot3.png)
 
+4. Adobe Spectrum Catalog Photo Modal
+
 ![Catalog Photo Modal](./screenshot4.png)
+
+5. Adobe Spectrum Catalog Project Requirements
+
+![Catalog ModaProject Requirements](./screenshot5.png)
 
 
 # Getting Started with Create React App
