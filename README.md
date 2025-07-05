@@ -1,6 +1,24 @@
+# Dog Breads Search
+
+This is a prototype built during a technical challenge for Adobe, showcasing the integration of Adobe’s React Spectrum UI library into a high-performance React application. It solves compatibility issues across React versions 16, 17, and 18, ensures interoperability with third-party libraries, and improves performance with lazy loading and efficient data retrieval.
+
+
 # react-18-spectrum-dog-breeds-search
 
-[React v18 Spectrum Dog Breeds Search](https://github.com/luoqiuyun/react-18-spectrum-dog-breeds-search)
+[Deployed to Netlify – see project live since May 2022](https://celadon-kangaroo-abaeef.netlify.app/)
+
+[React v18 Spectrum Dog Breeds Search on GitHub](https://github.com/luoqiuyun/react-18-spectrum-dog-breeds-search)
+
+
+## 🔗 Screenshots
+
+![Catalog Deployed on Netlify Successfully](./screenshot1.png)
+
+![Catalog Landing Page with Search Box](./screenshot2.png)
+
+![Catalog Scroll Down Continue Loading](./screenshot3.png)
+
+![Catalog Photo Modal](./screenshot4.png)
 
 
 # Getting Started with Create React App
