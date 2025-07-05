@@ -1,7 +1,17 @@
 # 🐶 Dog Breed Catalog (Adobe React Spectrum Prototype)
 
 A React + TypeScript application that catalogs and displays information on various dog breeds using data from The [Dog API](https://thedogapi.com/).
-This project was originally built as part of a technical challenge for Adobe, demonstrating real-world use of @adobe/react-spectrum and solving key compatibility and performance issues across React versions 16, 17, and 18, ensures interoperability with third-party libraries, and improves performance with lazy loading and efficient data retrieval.
+
+This project was built to demonstrate the use of Adobe’s React Spectrum UI library within a scalable, high-performance React app, solving key compatibility and interoperability challenges across React 16, 17, and 18.
+
+
+# 🐱 
+- ![React](https://img.shields.io/badge/React-16%2F17%2F18-blue)
+
+- ![TypeScript](https://img.shields.io/badge/TypeScript-4.x-blue)
+
+- ![Netlify](https://img.shields.io/badge/Deployed%20on-Netlify-brightgreen)
+
 
 # ✨ Key Achievements
 - ✅ Solved compatibility issues with React 16, 17, and 18 for @adobe/react-spectrum
@@ -37,11 +47,11 @@ This project was originally built as part of a technical challenge for Adobe, de
 
 # 🏗️ Architectural Highlights
 
-- Lazy Loading: Only visible dog cards load images and data for optimal performance.
+- Lazy Loading: Only visible dog breed cards and images are loaded, improving initial load time and responsiveness.
 
 - Spectrum Integration: Overcame initial incompatibility of React Spectrum with multiple React versions and ensured UI consistency.
 
-- Interoperability Fixes: Solved styling and rendering conflicts with third-party libraries.
+- Interoperability Fixes: Resolved styling, state management, and compatibility issues between React Spectrum and other popular React libraries.
 
 - Accessibility: Ensured ARIA and keyboard navigation compliance where applicable.
 
