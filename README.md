@@ -14,11 +14,13 @@ This project was built to demonstrate the use of Adobe’s React Spectrum UI lib
 
 # 🐱 GitHub Repository
 
-- ![Dog Breed Catalog](https://img.shields.io/badge/Dog%20Breed%20Catalog-v1.1-blue)
-
 - ![React](https://img.shields.io/badge/React-16%2F17%2F18-blue)
 
-- ![TypeScript](https://img.shields.io/badge/TypeScript-4.x-blue)
+- ![TypeScript](https://img.shields.io/badge/TypeScript-4.x-yellow)
+
+- ![Adobe Spectrum](https://img.shields.io/badge/Adobe%20Spectrum-3.16.5-purple)
+
+- ![Axios](https://img.shields.io/badge/Axios-1.0.0-blue)
 
 - ![Netlify](https://img.shields.io/badge/Deployed%20on-Netlify-brightgreen)
 
@@ -50,13 +52,15 @@ This project was built to demonstrate the use of Adobe’s React Spectrum UI lib
 
 # 🏗️ Architectural Highlights
 
-- Lazy Loading: Only visible dog breed cards and images are loaded, improving initial load time and responsiveness.
+- Lazy Loading: Only the visible dog breed cards load images and data, improving performance and responsiveness.
+
+- Cross-Version Compatibility: Fixed critical issues to ensure React Spectrum works seamlessly across React 16, 17, and 18.
+
+- Third-Party Interoperability: Resolved styling, state management, and compatibility issues to ensure smooth interoperability between React Spectrum and other libraries.
 
 - Spectrum Integration: Overcame initial incompatibility of React Spectrum with multiple React versions and ensured UI consistency.
 
-- Interoperability Fixes: Resolved styling, state management, and compatibility issues between React Spectrum and other popular React libraries.
-
-- Accessibility: Ensured ARIA and keyboard navigation compliance where applicable.
+- Accessibility Focus: Implemented ARIA best practices and keyboard-friendly interactions.
 
 
 # 🚀 Quick Start 
