@@ -5,6 +5,13 @@ A React + TypeScript application that catalogs and displays information on vario
 This project was built to demonstrate the use of Adobe’s React Spectrum UI library within a scalable, high-performance React app, solving key compatibility and interoperability challenges across React 16, 17, and 18.
 
 
+# 🌐 Live Demo & Project Link
+
+- [DEMO - Live since May 2022](https://celadon-kangaroo-abaeef.netlify.app/)
+
+- [GitHub - React v18 Spectrum Dog Breeds Search](https://github.com/luoqiuyun/react-18-spectrum-dog-breeds-search)
+
+
 # 🐱 GitHub Repository
 
 - ![Dog Breed Catalog](https://img.shields.io/badge/Dog%20Breed%20Catalog-v1.1-blue)
@@ -24,13 +31,6 @@ This project was built to demonstrate the use of Adobe’s React Spectrum UI lib
 - ✅ Implemented lazy loading and optimized data rendering for high performance
 
 - ✅ Delivered a fully working, production-grade solution, deployed to Netlify (May 2022)
-
-
-# 🌐 Live Demo & Project Link
-
-- [DEMO - Live since May 2022](https://celadon-kangaroo-abaeef.netlify.app/)
-
-- [GitHub - React v18 Spectrum Dog Breeds Search](https://github.com/luoqiuyun/react-18-spectrum-dog-breeds-search)
 
 
 # 💻  Technologies Used
