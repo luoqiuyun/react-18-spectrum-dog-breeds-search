@@ -4,6 +4,8 @@ A React + TypeScript application that catalogs and displays information on vario
 
 This project was built to demonstrate the use of Adobe’s React Spectrum UI library within a scalable, high-performance React app, solving key compatibility and interoperability challenges across React 16, 17, and 18.
 
+This project showcases not just frontend development, but architectural problem-solving and performance tuning—skills essential for driving technology adoption in real-world enterprise environments.
+
 
 # 🌐 Live Demo & Project Link
 
